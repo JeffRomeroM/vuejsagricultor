@@ -90,7 +90,7 @@
     },
     methods: {
       login() {
-        if (this.username === 'admin' && this.password === '1234') {
+        if (this.username === 'El Agricultor' && this.password === '2025') {
           this.autenticado = true;
           this.cargarProductos();
         } else {
