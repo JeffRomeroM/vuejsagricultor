@@ -174,11 +174,12 @@
   .app-container {
     padding: 20px;
     font-family: Arial, sans-serif;
+    width: 100%;
   }
   
   .login-container,
   .crud-container {
-    max-width: 800px;
+    max-width: 95%;
     margin: auto;
   }
   
@@ -208,6 +209,7 @@
   .tabla-responsive {
     overflow-x: auto;
     margin-top: 1rem;
+    width: 100%;
   }
   
   .tabla {

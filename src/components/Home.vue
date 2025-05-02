@@ -93,6 +93,11 @@
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.2s;
+    word-wrap: break-word;     /* Permite que las palabras largas se partan */
+    overflow-wrap: break-word; /* Compatibilidad adicional */
+    white-space: normal;       /* Permite que el texto haga saltos de línea */
+    width: 100%;               /* Asegura que el contenido no exceda */
+    box-sizing: border-box; 
   }
   .card:hover {
     transform: translateY(-5px);
@@ -105,6 +110,8 @@
   .card p {
     margin: 4px 0;
     color: #555;
+    padding:   5px;
+    width: 100%;
   }
   </style>
   
